@@ -1,0 +1,35 @@
+body {
+    font-family: "Quicksand", sans-serif;
+}
+a.nav-link.active {
+    margin-left: 80px;
+}
+.icon-right {
+    margin-left: 300px;
+}
+.fa-phone {
+    color: #f04506;
+    margin-left: 87px;
+}
+.menu {
+    font-weight: 500;
+}
+.menu .menu-1 {
+    display: flex;
+}
+
+.heartbeat {
+    animation: beat 0.25s infinite alternate;
+    transform-origin: center;
+}
+@keyframes beat {
+    to {
+        transform: scale(1.1);
+    }
+}
+.slide-2 {
+    font-family: Arial;
+    width: 500px;
+    display: block;
+    margin: 0 auto;
+}
